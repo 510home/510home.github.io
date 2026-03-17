@@ -177,7 +177,7 @@
 <!-- Three.js r128 -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.js"></script>
-//<script src="https://www.jsdelivr.com/package/npm/three-gltf-loader"></script>
+//-- <script src="https://www.jsdelivr.net/package/npm/three-gltf-loader"></script>
 <script>
 (function () {
   /* ── renderer ── */
@@ -253,9 +253,9 @@
   scene.add(torus4);
 /* -- Spinner --*/
 
- const loader = new GLTFLoader();
-const gltf = await loader.loadAsync('cardboard_rocket.glb');
-scene.add( gltf.scene ); 
+// const loader = new GLTFLoader();
+//const gltf = await loader.loadAsync('cardboard_rocket.glb');
+//scene.add( gltf.scene ); 
   
   /* ── yellow cube ── */
   const cubeGeo = new THREE.BoxGeometry(0.125, 0.125, 0.125);
